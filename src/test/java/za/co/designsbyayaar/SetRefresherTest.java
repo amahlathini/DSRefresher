@@ -14,7 +14,7 @@ public class SetRefresherTest extends TestCase {
     @Ignore
     @Test
     public void testTreeIsEmpty() {
-        assertEquals(countrySet.countryTree().isEmpty(), false);
+        assertTrue(countrySet.countryTree().isEmpty());
     }
 
     @Test

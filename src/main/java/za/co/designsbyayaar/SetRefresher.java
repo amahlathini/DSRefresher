@@ -24,6 +24,7 @@ public class SetRefresher {
         tree.remove("China");
         tree.remove("Cuba");
         tree.remove("Russia");
+        tree.clear();
         return tree;
     }
 }
