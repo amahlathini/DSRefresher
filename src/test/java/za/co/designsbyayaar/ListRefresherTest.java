@@ -1,8 +1,7 @@
 package za.co.designsbyayaar;
 
 import junit.framework.TestCase;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 
 public class ListRefresherTest extends TestCase {
     ListRefresher cityList;
